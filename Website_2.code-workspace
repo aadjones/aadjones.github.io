@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ccapture.js/src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website"
+	}
+}

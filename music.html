@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - adj</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+</head>
+    <!-- Add custom styles if needed -->
+    <style>
+        .gallery-item {
+            margin-bottom: 30px;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: left;
+            padding: 10px 20px;
+            font-size: 0.8em; /* Adjust font size as needed */
+            background-color: #f8f9fa; /* Adjust the background color as needed */
+        }
+        .playback-button {
+        /* ... other styles ... */
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .playback-button i {
+        color: pink;  
+        font-size: 24px;  
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Same Navbar as in the index.html -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Aaron Demby Jones</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="music.html">Music</a></li>
+                    <li class="nav-item"><a class="nav-link" href="art.html">Art</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- <h2>Music</h2> -->
+        <section>
+            <!-- <h3>Audio Files</h3> -->
+            <!-- Audio files -->
+            <!-- <audio controls>
+                <source src="path_to_your_audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio> -->
+            <!-- Repeat for other audio files -->
+            <!-- <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1445496307&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/aaron-demby-jones" title="Aaron Demby Jones" target="_blank" style="color: #cccccc; text-decoration: none;">Aaron Demby Jones</a> · <a href="https://soundcloud.com/aaron-demby-jones/circles" title="Circles" target="_blank" style="color: #cccccc; text-decoration: none;">Circles</a></div>
+            <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1270784488&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/aaron-demby-jones" title="Aaron Demby Jones" target="_blank" style="color: #cccccc; text-decoration: none;">Aaron Demby Jones</a> · <a href="https://soundcloud.com/aaron-demby-jones/sets/flow" title="Flow" target="_blank" style="color: #cccccc; text-decoration: none;">Flow</a></div>
+            <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1070832202&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/aaron-demby-jones" title="Aaron Demby Jones" target="_blank" style="color: #cccccc; text-decoration: none;">Aaron Demby Jones</a> · <a href="https://soundcloud.com/aaron-demby-jones/sets/escape" title="Escape" target="_blank" style="color: #cccccc; text-decoration: none;">Escape</a></div> -->
+        </section>
+
+        <section>
+            <h3>Music Videos</h3>
+            <div class="row">
+                <!-- First Video -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/pMgGtI2sYcY" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Second Video -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/6nEq9ReYnJA" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Third Video -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/sXEfs66mrOk" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- <section>
+            <h3>p5.js Sketches</h3>
+            <div id="p5-sketch"></div>
+            <script src="sketches/circles.js"></script>
+        </section> -->
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <!-- <a href="your-twitter-url" class="m-2"> -->
+                <!-- <i class="fab fa-twitter fa-2x"></i> -->
+            <!-- </a> -->
+            <!-- <a href="your-facebook-url" class="m-2"> -->
+                <!-- <i class="fab fa-facebook-f fa-2x"></i> -->
+            </a>
+            <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <!-- Add more icons as needed -->
+        </div>
+    </footer>
+
+  
+</body>
+</html>

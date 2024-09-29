@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#control-panel {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    width: 200px; /* Or as needed */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-label {
+    margin: 0;
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+.my-slider {
+    margin: 5px 0;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Spreads items to fill the container */
+    margin-bottom: 10px; /* Space between each slider container */
+}
