@@ -20,6 +20,17 @@ body {
     margin-bottom: 30px;
 }
 
+.img-fluid {
+    height: 200px; /* Consistent height for gallery images */
+    width: 100%;
+    object-fit: cover; /* Ensure image covers space without distortion */
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* Footer styling */
 .footer {
     position: fixed;

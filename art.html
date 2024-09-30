@@ -3,114 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art - adj</title>
+    <title>Art - Aaron Demby Jones</title>
+
+    <!-- External CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
 
-    <!-- Add custom styles if needed -->
-    <style>
-        .gallery-item {
-            margin-bottom: 30px;
-        }
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            text-align: left;
-            padding: 10px 20px;
-            font-size: 0.8em; /* Adjust font size as needed */
-            background-color: #f8f9fa; /* Adjust the background color as needed */
-        }
-        .social-media-icons a {
-            margin: 0 10px;
-            color: white; /* Icon color */
-            font-size: 24px; /* Icon size */
-        }
-
-        .social-media-icons a:hover {
-            color: #007bff; /* Icon hover color */
-        }
-
-        .col-md-2 {
-            max-width: 20%;
-            padding: 5px;
-        }
-        .img-fluid {
-            height: 200px; /* Consistent height across all images */
-            width: 100%;
-            object-fit: cover; /* Covers the area, clipping where necessary */
-        }
-        body, main {
-            margin-left: 20px; /* Adjust the size as needed */
-            margin-right: 20px; /* Adjust the size as needed */
-        }
-
-        
-        /* Add more styles here */
-
-    </style>
 </head>
-    <body>
-        <header>
-            <!-- Same Navbar as in the index.html -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Aaron Demby Jones</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="music.html">Music</a></li>
-                        <li class="nav-item"><a class="nav-link" href="art.html">Art</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Aaron Demby Jones</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="music.html">Music</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="art.html">Art</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <main class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 gallery-item">
                 <a href="subspace.html">
-                    <img src="images/montage.png" class="img-fluid" alt="Project 1">
+                    <img src="images/montage.png" class="img-fluid" alt="Seeing And Hearing Fluid Subspaces">
                 </a>
-                <p>Seeing And Hearing Fluid Subspaces, 2017</p>
+                <p>Seeing And Hearing Fluid Subspaces</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 gallery-item">
                 <a href="mobius.html">
-                    <img src="images/zoomed_in.png" class="img-fluid" alt="Project 2">
+                    <img src="images/zoomed_in.png" class="img-fluid" alt="Möbius Patterns">
                 </a>
-                <p>Möbius Patterns, 2013</p>
+                <p>Möbius Patterns</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 gallery-item">
                 <a href="melting.html">
-                    <img src="images/electricity.gif" class="img-fluid" alt="Project 3">
+                    <img src="images/electricity.gif" class="img-fluid" alt="Melting">
                 </a>
-                <p>Melting, 2022</p>
+                <p>Melting</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 gallery-item">
                 <a href="displace.html">
-                    <img src="images/warmth.png" class="img-fluid" alt="Project 4">
+                    <img src="images/warmth.png" class="img-fluid" alt="Displace">
                 </a>
                 <p>Displace</p>
             </div>
-            <!-- Add more projects similarly -->
-        </div>        
-  
+            <!-- Add more projects as needed -->
+        </div>
+    </main>
 
-    <footer>
+    <footer class="footer bg-light">
         <div class="container text-center">
-            <!-- <a href="your-twitter-url" class="m-2"> -->
-                <!-- <i class="fab fa-twitter fa-2x"></i> -->
-            <!-- </a> -->
-            <!-- <a href="your-facebook-url" class="m-2"> -->
-                <!-- <i class="fab fa-facebook-f fa-2x"></i> -->
-            <!-- </a> -->
-            <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
-                <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <!-- Add more icons as needed -->
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <!-- Add more icons as needed -->
+            </div>
         </div>
     </footer>
-    </body>
+
+    <!-- External JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
