@@ -5,6 +5,19 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Music page specific styling */
+.playback-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.playback-button i {
+    color: pink;
+    font-size: 24px;
+}
+
 /* About Page specific styling */
 .profile-image {
     max-width: 33%;
