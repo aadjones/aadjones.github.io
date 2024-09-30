@@ -5,6 +5,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* About Page specific styling */
+.profile-image {
+    max-width: 33%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
 /* Gallery items */
 .gallery-item {
     margin-bottom: 30px;
