@@ -3,34 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adj</title>
+    <title>Aaron Demby Jones Portfolio</title>
+
+    <!-- External CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        .gallery-item {
-            margin-bottom: 30px;
-        }
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            text-align: left;
-            padding: 10px 20px;
-            font-size: 0.8em; /* Adjust font size as needed */
-            background-color: #f8f9fa; /* Adjust the background color as needed */
-        }
-        .social-media-icons a {
-            margin: 0 10px;
-            color: white; /* Icon color */
-            font-size: 24px; /* Icon size */
-        }
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
 
-        .social-media-icons a:hover {
-            color: #007bff; /* Icon hover color */
-        }
-
-    </style>
 </head>
 <body>
     <header>
@@ -48,86 +27,63 @@
             </div>
         </nav>
     </header>
+
     <main class="container">
         <div class="row">
-            <!-- Gallery items here (sample) -->
+            <!-- Gallery items -->
             <div class="col-md-4 gallery-item">
-                <img src="images/crows.gif" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/crows.gif" class="img-fluid" alt="Crows Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/piano-melt.gif" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/piano-melt.gif" class="img-fluid" alt="Piano Melt Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/eye-upscale.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/eye-upscale.png" class="img-fluid" alt="Eye Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/electricity.gif" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
-            </div>
-            
-            <div class="col-md-4 gallery-item">
-                <img src="images/fire.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/electricity.gif" class="img-fluid" alt="Electricity Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/layers.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/fire.png" class="img-fluid" alt="Fire Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/silk.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/layers.png" class="img-fluid" alt="Layers Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/warmth.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/silk.png" class="img-fluid" alt="Silk Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/wisps.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/warmth.png" class="img-fluid" alt="Warmth Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/snow.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/wisps.png" class="img-fluid" alt="Wisps Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/compressed_spiral.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/snow.png" class="img-fluid" alt="Snow Art">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/darker_rotated_zeros.png" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/compressed_spiral.png" class="img-fluid" alt="Compressed Spiral Art">
             </div>
-           
+            <div class="col-md-4 gallery-item">
+                <img src="images/darker_rotated_zeros.png" class="img-fluid" alt="Darker Rotated Zeros Art">
+            </div>
         </div>
     </main>
- 
-    <footer>
+
+    <footer class="footer bg-light">
         <div class="container text-center">
-            <!-- <a href="your-twitter-url" class="m-2"> -->
-                <!-- <i class="fab fa-twitter fa-2x"></i> -->
-            <!-- </a> -->
-            <!-- <a href="your-facebook-url" class="m-2"> -->
-                <!-- <i class="fab fa-facebook-f fa-2x"></i> -->
-            </a>
-            <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
-                <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <!-- Add more icons as needed -->
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <!-- Add more social media icons as needed -->
+            </div>
         </div>
     </footer>
-    
-    
-    
+
+    <!-- External JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-<div class="social-media-icons">
-    
-    <!-- Add more icons as needed -->

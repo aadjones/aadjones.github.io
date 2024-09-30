@@ -1,0 +1,33 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Gallery items */
+.gallery-item {
+    margin-bottom: 30px;
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    background-color: #f8f9fa;
+}
+
+/* Social media icons */
+.social-media-icons a {
+    margin: 0 10px;
+    color: black; /* Icon color */
+    font-size: 24px;
+}
+
+.social-media-icons a:hover {
+    color: #007bff; /* Hover color */
+}
