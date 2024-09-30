@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 Title</title>
+    <title>Melting - Interactive Art</title>
+
+    <!-- External CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
 </head>
 <body>
     <header>
@@ -26,37 +29,29 @@
 
     <main class="container">
         <h1>Melting</h1>
-        <p> Experiments with animations using a degradation of the img2img process of Stable Diffusion.
-        </p>
+        <p>Experiments with animations using a degradation of the img2img process of Stable Diffusion.</p>
 
-        <div class="row"></div>
+        <div class="row">
             <!-- Gallery items here (sample) -->
-
             <div class="col-md-4 gallery-item">
-                <img src="images/crows.gif" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/crows.gif" class="img-fluid" alt="Crows Artwork">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/electricity.gif" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/electricity.gif" class="img-fluid" alt="Electricity Artwork">
             </div>
             <div class="col-md-4 gallery-item">
-                <img src="images/piano-melt.gif" class="img-fluid" alt="Artwork Title">
-                <!-- <p class="text-center">Artwork Title</p> -->
+                <img src="images/piano-melt.gif" class="img-fluid" alt="Piano Melt Artwork">
             </div>
-           
         </div>
 
-            
-
         <!-- Optional navigation between projects -->
-        <nav>
+        <nav class="d-flex justify-content-between mt-4">
             <a href="art.html">← Back to Art Page</a>
-            <a href="displace.html" class="float-right">Next Project →</a>
+            <a href="displace.html">Next Project →</a>
         </nav>
     </main>
 
-    <footer>
+    <footer class="footer bg-light">
         <div class="container text-center">
             <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
                 <i class="fab fa-instagram fa-2x"></i>
