@@ -3,23 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 Title</title>
+    <title>Displace - Interactive Art</title>
+
+    <!-- External CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <style>
-        #control-panel {
-    position: absolute;
-    top: 60px; /* Distance from the top */
-    right: 10px; /* Distance from the right */
-    width: 150px; /* Or as needed */
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
 </head>
 <body>
     <header>
@@ -40,18 +29,12 @@
 
     <main class="container">
         <h1>Displace</h1>
-        <p> An interactive pixel displacement piece. Adjust the sliders to explore!
-        </p>
+        <p>An interactive pixel displacement piece. Adjust the sliders to explore!</p>
 
         <section>
             <div id="p5-sketch-container"></div>
-            <div id="control-panel"></div> <!-- Add this for your sliders -->
-            
-            <!-- Link to the p5.js library and custom sketch located inside 'sketches/sliders' -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
-            <script src="sketches/sliders/sketch.js"></script>
-
-            
+            <div id="control-panel"></div> <!-- Sliders go here -->
+        </section>
 
         <!-- Optional navigation between projects -->
         <nav>
@@ -59,12 +42,16 @@
         </nav>
     </main>
 
-    <footer>
+    <footer class="footer bg-light">
         <div class="container text-center">
             <a href="https://www.instagram.com/aarondembyjonesmusic/" target="_blank" class="m-2">
                 <i class="fab fa-instagram fa-2x"></i>
             </a>
         </div>
     </footer>
+
+    <!-- External JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="sketches/sliders/sketch.js"></script>
 </body>
 </html>
